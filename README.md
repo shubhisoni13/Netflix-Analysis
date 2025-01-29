@@ -29,3 +29,11 @@ This project analyzes **Netflix user behavior** and viewing patterns to predict 
 ✅ **Leverage User Engagement Data** – Use engagement metrics to predict churn and offer **retention strategies**.  
 
 
+import pandas as pd # data preparations
+import numpy as np # linear algebra
+import plotly.express as px #database visulization
+from textblob import TextBlob #sentiment analysis
+dataset = pd.read_csv("D:/Python Scripts/netflix_titles.csv")
+dataset.head()
+
+
