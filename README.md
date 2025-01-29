@@ -127,12 +127,14 @@ for index, row in dataset3.iterrows():
     else:
         sent ='Negative'
     dataset3.loc[[index,2], 'Sentiment']=sent
-```
 
-![Screenshot 2025-01-29 170209](https://github.com/user-attachments/assets/ef29d7d2-9af5-483a-821c-f6eace25a8d2)
+
 
 dataset3= dataset3.groupby(['Release Year' , 'Sentiment']).size().reset_index(name ='Total Count')
                           
 dataset3= dataset3[dataset3['Release Year']>2005]
 bargraph4=px.bar(dataset3, x="Release Year", y="Total Count", color="Sentiment", title="Sentiment Analysis of Content on Netflix")
 bargraph4.show()
+```
+
+![Screenshot 2025-01-29 170209](https://github.com/user-attachments/assets/ef29d7d2-9af5-483a-821c-f6eace25a8d2)
