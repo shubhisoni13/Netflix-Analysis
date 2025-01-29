@@ -21,11 +21,6 @@ This project analyzes **Netflix user behavior** and viewing patterns to predict 
 3️⃣ **Content Prediction Model** – Built a **collaborative filtering** model using **Python** to recommend content based on user ratings and preferences.  
 4️⃣ **Data Visualization** – Visualized content popularity and viewing trends with **Matplotlib** and **Seaborn**.  
 
-### **📌 Conclusion & Recommendations**  
-✅ **Target Younger Audiences** – Focus on promoting **recent releases** and **popular genres** like **Comedy** and **Drama**.  
-✅ **Promote Classic Content for Older Demographics** – Recommend **classic films** and **older TV shows** to **45+ users**.  
-✅ **Improve Content Personalization** – Implement **advanced recommendation algorithms** to enhance user experience.  
-✅ **Leverage User Engagement Data** – Use engagement metrics to predict churn and offer **retention strategies**.  
 
 ```python
 import pandas as pd # data preparations
@@ -138,3 +133,9 @@ bargraph4.show()
 ```
 
 ![Screenshot 2025-01-29 170209](https://github.com/user-attachments/assets/ef29d7d2-9af5-483a-821c-f6eace25a8d2)
+
+### **📌 Conclusion & Recommendations**  
+✅ **Target Younger Audiences** – Focus on promoting **recent releases** and **popular genres** like **Comedy** and **Drama**.  
+✅ **Promote Classic Content for Older Demographics** – Recommend **classic films** and **older TV shows** to **45+ users**.  
+✅ **Improve Content Personalization** – Implement **advanced recommendation algorithms** to enhance user experience.  
+✅ **Leverage User Engagement Data** – Use engagement metrics to predict churn and offer **retention strategies**.  
